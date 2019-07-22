@@ -1,3 +1,4 @@
+import javax.swing.*;
 import javax.xml.crypto.dsig.keyinfo.KeyValue;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -126,7 +127,15 @@ public class Huffman
         }
         while (nodes.size() > 1)
         {
-            ArrayList<Node> orderedNodes =  Collections.sort(nodes,(a,b) -> Integer.compare(a.GetFrequency(),b.GetFrequency()));
+            ArrayList<Node> orderedNodes = nodes;
+            Collections.sort(orderedNodes, (o1,o2) -> Integer.compare(o1.GetFrequency(),o2.GetFrequency()));
+            if(nodes.size()>=2)
+            {
+                ArrayList<Node> taken = new ArrayList<>();
+
+            }
+
+
 
 
         }
