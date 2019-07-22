@@ -16,9 +16,9 @@ public class DuplicateEncoder
      */
     static String encode(String word) {
 
-        ArrayList<Character> arrayList1 = new ArrayList<>() {
-        };
-        for (int i = 0; i < word.length(); i++) {
+        ArrayList<Character> arrayList1 = new ArrayList<>() {};
+        for (int i = 0; i < word.length(); i++)
+        {
             arrayList1.add(word.charAt(i));
         }
         word = "";
