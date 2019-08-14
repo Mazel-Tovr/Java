@@ -13,16 +13,20 @@ public class ToSmallest
         Integer a[] = new Integer[Str.length()];
         for (int i = 0; i<a.length;i++)
         {
-            a[i] = Character.getNumericValue(Str.charAt(i));
+            a[i] = Character.getNumericValue(Str.charAt(i));    //Заносим число в массив (каждая цифра отдельный элемент)
         }
-        int min = a[0];
-        int minind = 0;
-        int startposition = 0;
-        boolean chekbreak = true;
+        int min = a[0];//Берем первое число как самое минимальное на данный момент
+        int minind = 0;//Берем индекс самого минимального числа на данный момент,чтоб знать откуда его удалять
+        int startposition = 0;//Стартовая позиция для того, чтобы вставить минимальное число в эту позицию
+        boolean chekbreak = true;//для проблемного условия 
         while (true)
         {
-
-            for(int i = 1;i<a.length;i++)
+                /*
+                Проблемное условия заключается в том что нам при таком раскладе "20676" нужно не 0 выносить вперед (затем удалять),
+                а двойку на место нуля , поэтому я написал костыль который +- работает 
+                рандомные тесты пройти не могу хз why
+                */
+            for(int i = 1;i<a.length;i++) 
             {
                 if(a[i]==0)
                 {
@@ -33,7 +37,7 @@ public class ToSmallest
                     startposition++;
                 else break;
             }
-
+            //так ну тот все дожно быть понятно мы ишем минимальное число и место куда его вставить
             if(minind == startposition && chekbreak)
             {
                 boolean chek = true;
@@ -55,8 +59,9 @@ public class ToSmallest
                 break;
             }
         }
-
+        //Тут ваставка нужного числа
         Str = chekbreak ? ((new StringBuilder(Str)).insert(startposition,a[minind]).deleteCharAt(minind+1).toString()) : (new StringBuilder(Str)).insert(startposition+1,a[minind]).deleteCharAt(minind).toString() ;
+        //Тут нули убираем которые впреди
         for(int i = 0;i<Str.length();i++)
         {
             if (Str.charAt(0) == '0')
