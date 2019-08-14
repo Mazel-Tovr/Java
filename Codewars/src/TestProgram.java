@@ -25,7 +25,12 @@ public class TestProgram
             i++;
         }
     }*/
+        //System.out.println((double) 8/30);
+        for (var item:
+                ToSmallest.smallest(Long.decode("23311822363250008"))) {
+            System.out.print(item + ", ");
 
-        System.out.println(MexicanWave.wave("adaada")[2]);
+        }
+        //System.out.println(ToSmallest.smallest(29917)[0]);
     }
 }
