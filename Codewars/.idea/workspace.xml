@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/TestProgram.java" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/src/TestProgram.java" line="38" />
     <bookmark url="file://$PROJECT_DIR$/src/PigLatin.java" />
     <bookmark url="file://$PROJECT_DIR$/src/EnoughIsEnough.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce6f618-5033-43ca-be36-286701b5ddce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CamelCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Diamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnoughIsEnough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PigLatin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PositionAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpinWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SumWithOutpluse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ToSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SmileFaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codewars.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Codewars.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codewars/MexicanWave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/MexicanWave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codewars/NearestSqr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NearestSqr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EasyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestProgram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,20 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="731">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToSmallest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Interval.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="453">
+              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,18 +79,22 @@
         <option value="$PROJECT_DIR$/src/EnoughIsEnough.java" />
         <option value="$PROJECT_DIR$/src/Form1.fxml" />
         <option value="$PROJECT_DIR$/src/CamelCase.java" />
-        <option value="$PROJECT_DIR$/src/EasyTask.java" />
         <option value="$PROJECT_DIR$/src/SumWithOutpluse.java" />
         <option value="$PROJECT_DIR$/src/SpinWords.java" />
         <option value="$PROJECT_DIR$/src/PositionAverage.java" />
         <option value="$PROJECT_DIR$/src/ToSmallest.java" />
+        <option value="$PROJECT_DIR$/src/SmileFaces.java" />
+        <option value="$PROJECT_DIR$/src/Greed.java" />
+        <option value="$PROJECT_DIR$/src/EasyTask.java" />
+        <option value="$PROJECT_DIR$/src/sumIntervals.java" />
         <option value="$PROJECT_DIR$/src/TestProgram.java" />
+        <option value="$PROJECT_DIR$/src/Interval.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="216" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="166" />
+    <option name="y" value="-8" />
     <option name="width" value="1437" />
     <option name="height" value="1043" />
   </component>
@@ -103,11 +102,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,16 +115,10 @@
               <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codewars" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Codewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codewars" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,9 +168,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="32" width="1437" height="1043" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27814087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -186,8 +180,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1978022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3978022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1971831" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39111593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -227,12 +221,6 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EasyTask.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/SpinWords.java</url>
           <line>5</line>
           <properties />
@@ -256,6 +244,42 @@
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SmileFaces.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Greed.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EasyTask.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interval.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interval.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Interval.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -265,16 +289,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
-          <folding>
-            <element signature="e#10625#10626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HappyYear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -296,20 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CountingDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DuplicateEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -336,20 +336,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#580#589#0" expanded="true" />
             <element signature="e#644#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EasyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="74" column="29" selection-start-line="62" selection-start-column="8" selection-end-line="77" selection-end-column="16" />
-          <folding>
-            <element signature="method#nearestSq#0;class#EasyTask#0" />
-            <element signature="method#repeatStr#0;class#EasyTask#0" />
-            <element signature="method#adjacentElementsProduct#0;class#EasyTask#0" />
-            <element signature="method#countingSheep#0;class#EasyTask#0" />
-            <element signature="method#rowSumOddNumbers#0;class#EasyTask#0" />
           </folding>
         </state>
       </provider>
@@ -454,17 +440,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DuplicateEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountingDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EasyTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="method#nearestSq#0;class#EasyTask#0" />
+            <element signature="method#repeatStr#0;class#EasyTask#0" />
+            <element signature="method#adjacentElementsProduct#0;class#EasyTask#0" />
+            <element signature="method#countingSheep#0;class#EasyTask#0" />
+            <element signature="method#rowSumOddNumbers#0;class#EasyTask#0" />
+            <element signature="method#solve#0;class#EasyTask#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ToSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="41">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getpoint#0;class#Greed#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmileFaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+          <folding>
+            <element signature="e#10625#10626#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

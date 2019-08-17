@@ -77,5 +77,26 @@ public class EasyTask
           s = str.toUpperCase();
        return s;
     }
+    public static int findShort(String s)
+    {
+            int shortest = 9999999;
+            String Words[] = s.split(" ");
+            for(var item : Words)
+            {
+                if( shortest > item.length())
+                    shortest = item.length();
+            }
+            return  shortest;
+        }
+    public static boolean solution(String str, String ending)
+    {
+        boolean Answer = true;
+        for(int i = str.length()-1,z = ending.length()-1;i > 0 && z > 0; i-- ,z--)
+        {
+            if(str.charAt(i) == ending.charAt(z)) Answer = true;
 
+            else Answer = false;
+        }
+        return Answer;
+    }
 }
