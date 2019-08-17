@@ -99,4 +99,15 @@ public class EasyTask
         }
         return Answer;
     }
+    public static String printerError(String s)
+    {
+        int sum =0;int eror = 0;
+
+        for(int i = 0;i<s.length();i++)
+        {
+            if('a'<= s.charAt(i) && s.charAt(i) <='m') sum++;
+            else eror++;
+        }
+       return eror +"/"+(sum+eror);// your code
+    }
 }

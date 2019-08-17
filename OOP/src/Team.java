@@ -6,6 +6,8 @@ public class Team
     private String team_name;
     private List<Player> Players = new ArrayList<>();
     private Coach coach;
+    private Integer mapswin = 0;
+    private Integer mapslose = 0;
 
     Team(String team_name)
     {
@@ -18,22 +20,31 @@ public class Team
     {
         this.Players.add(player);
     }
+
     public void AddCoach(Coach coach)
     {
         this.coach = coach;
     }
+
     public void DeleteCoach()
     {
         this.coach.ChangeDate("Team has no coach",null);
     }
+
     public void DeletePlayerInd(int index)
     {
         Players.remove(index);
     }
+
     public void DeletePLayerObj(Player player){Players.remove(player);}
+
+    public void GameResult(boolean win) { if(win)mapswin++;else mapslose++;}
+
     public Player GetPlayer(int i){return  Players.get(i);}
 
     public Integer Count(){return Players.size();}
+
+    public Double GetTeamWinRate(){return (double)(mapswin/(mapswin+mapslose))*100; }
 
 
     public void TeamInfo()

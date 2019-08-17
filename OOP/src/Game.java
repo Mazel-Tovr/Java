@@ -28,44 +28,53 @@ public class Game
 
             System.out.println("Round "+ roundcount + " Start");
             System.out.println("People alive " +(team1.Count() + team2.Count()));
+            ArrayList<Player> AliveTeam1 = new ArrayList<>();
+            ArrayList<Player> AliveTeam2 = new ArrayList<>();
+            for(int i = 0;i<5;i++)
+            {
+                AliveTeam1.add(team1.GetPlayer(i));
+                AliveTeam2.add(team2.GetPlayer(i));
+            }
 
-            int playersalive1 = 5;
-            int playersalive2 = 5;
-            while ( playersalive1 > 0 || playersalive2 > 0)
+
+            while ( AliveTeam1.size() > 0 || AliveTeam2.size() > 0)
             {
 
                 Random rnd = new Random();
-               var one =rnd.nextInt(team1.Count());
-               var two = rnd.nextInt(team2.Count());
+               var one = rnd.nextInt(AliveTeam1.size());
+               var two = rnd.nextInt(AliveTeam2.size());
 
                 if( rnd.nextInt(2) == 0)
                {
-                   System.out.println("Player "+ team1.GetPlayer(one).getName() + " kills Player "+team2.GetPlayer(two).getName());
-                   team1.GetPlayer(one).Playerkill();
-                   team2.GetPlayer(two).Playerkilled();
-                  // team2.DeletePlayerInd(two);
-                   playersalive1--;
+                   System.out.println("Player "+ AliveTeam1.get(one).getName() + " kills Player "+ AliveTeam2.get(two).getName());
+                   AliveTeam1.get(one).Playerkill();
+                   AliveTeam2.get(two).Playerkilled();
+                   AliveTeam2.remove(two);
+
 
                }
                 else
                 {
-                    System.out.println("Player "+ team2.GetPlayer(one).getName() + " kills Player "+team1.GetPlayer(two).getName());
-                    team2.GetPlayer(one).Playerkill();
-                    team1.GetPlayer(two).Playerkilled();
-                    //team1.DeletePlayerInd(two);
-                    playersalive2--;
+                    System.out.println("Player "+ AliveTeam2.get(two).getName() + " kills Player "+AliveTeam1.get(one).getName());
+                    AliveTeam2.get(two).Playerkill();
+                    AliveTeam1.get(one).Playerkilled();
+                    AliveTeam1.remove(one);
+
 
                 }
                 System.out.println();
-                System.out.println("Players alive " + (playersalive1 + playersalive2));
-                if(playersalive1 == 0){ team2winround++; break;}
-                if(playersalive2 == 0){ team1winround++; break;}
+                System.out.println("Players alive " + (AliveTeam1.size() + AliveTeam2.size()));
+                if(AliveTeam1.size() == 0){ team2winround++; break;}
+                if(AliveTeam2.size() == 0){ team1winround++; break;}
 
             }
 
             if(team1winround == 16 || team1winround == 16)
             {
                 someonewingame =true;
+                if(team1winround == 16) team1.GameResult(true);else team1.GameResult(false);
+                if(team2winround == 16) team2.GameResult(true);else team2.GameResult(false);
+
                 for (int i = 0;i < 5;i++)
                 {
                   team1.GetPlayer(i).refreshKdrationg();

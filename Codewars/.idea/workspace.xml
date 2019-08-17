@@ -7,14 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce6f618-5033-43ca-be36-286701b5ddce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SmileFaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/Interval.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Codewars/ToSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/ToSmallest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EasyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,29 +27,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Interval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,18 +63,18 @@
         <option value="$PROJECT_DIR$/src/ToSmallest.java" />
         <option value="$PROJECT_DIR$/src/SmileFaces.java" />
         <option value="$PROJECT_DIR$/src/Greed.java" />
-        <option value="$PROJECT_DIR$/src/EasyTask.java" />
         <option value="$PROJECT_DIR$/src/sumIntervals.java" />
-        <option value="$PROJECT_DIR$/src/TestProgram.java" />
         <option value="$PROJECT_DIR$/src/Interval.java" />
+        <option value="$PROJECT_DIR$/src/TestProgram.java" />
+        <option value="$PROJECT_DIR$/src/EasyTask.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="166" />
-    <option name="y" value="-8" />
+    <option name="x" value="147" />
+    <option name="y" value="-19" />
     <option name="width" value="1437" />
-    <option name="height" value="1043" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,8 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,11 +95,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Codewars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Codewars" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Codewars" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Codewars" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -170,7 +163,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -180,7 +173,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1971831" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18016928" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39111593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -234,7 +227,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ToSmallest.java</url>
-          <line>58</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -454,21 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EasyTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="method#nearestSq#0;class#EasyTask#0" />
-            <element signature="method#repeatStr#0;class#EasyTask#0" />
-            <element signature="method#adjacentElementsProduct#0;class#EasyTask#0" />
-            <element signature="method#countingSheep#0;class#EasyTask#0" />
-            <element signature="method#rowSumOddNumbers#0;class#EasyTask#0" />
-            <element signature="method#solve#0;class#EasyTask#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ToSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -504,10 +482,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/EasyTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="671">
+          <caret line="107" column="18" selection-start-line="103" selection-start-column="8" selection-end-line="110" selection-end-column="47" />
+          <folding>
+            <element signature="method#nearestSq#0;class#EasyTask#0" />
+            <element signature="method#repeatStr#0;class#EasyTask#0" />
+            <element signature="method#adjacentElementsProduct#0;class#EasyTask#0" />
+            <element signature="method#countingSheep#0;class#EasyTask#0" />
+            <element signature="method#rowSumOddNumbers#0;class#EasyTask#0" />
+            <element signature="method#solve#0;class#EasyTask#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,6 +504,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
         </state>
       </provider>
     </entry>
