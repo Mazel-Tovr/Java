@@ -6,6 +6,8 @@ public class Game
 {
     private Team team1;
     private Team team2;
+    private Team Winer;
+    private Team Loser;
 
     Game(Team team1, Team team2)
     {
@@ -13,6 +15,11 @@ public class Game
         this.team2 = team2;
     }
 
+    public Team getWiner() { return Winer; }
+    public Team getLoser() { return Loser; }
+    //due to the  technical failure may occur seters are have a public access
+    public void setWiner(Team winer) { Winer = winer; }
+    public void setLoser(Team loser) { Loser = loser; }
 
     //Какое то подобие игры
     public void PlayGame()
@@ -72,8 +79,8 @@ public class Game
             if(team1winround == 16 || team1winround == 16)
             {
                 someonewingame =true;
-                if(team1winround == 16) team1.GameResult(true);else team1.GameResult(false);
-                if(team2winround == 16) team2.GameResult(true);else team2.GameResult(false);
+                if(team1winround == 16){ team1.GameResult(true);setWiner(team1);}else{ team1.GameResult(false); setLoser(team1);}
+                if(team2winround == 16){ team2.GameResult(true); setWiner(team2);}else {team2.GameResult(false);setLoser(team2);}
 
                 for (int i = 0;i < 5;i++)
                 {
@@ -83,8 +90,6 @@ public class Game
             }
             roundcount++;
         }
-
-        //Some kod
 
     }
 
