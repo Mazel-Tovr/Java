@@ -1,4 +1,7 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class EasyTask
 {
@@ -101,6 +104,7 @@ public class EasyTask
     }
     public static String printerError(String s)
     {
+
         int sum =0;int eror = 0;
 
         for(int i = 0;i<s.length();i++)
@@ -109,5 +113,39 @@ public class EasyTask
             else eror++;
         }
        return eror +"/"+(sum+eror);// your code
+    }
+
+    public static boolean check(Object[] a, Object x) {
+        boolean answer =false;
+        for (var item:a)
+        {
+            if (item.equals(x)) {answer =true; break;}
+        }
+        // Your code here
+        return answer;
+    }
+    public static String covfefe(String tweet)
+    {
+        boolean check = false;
+        String[] Words = tweet.split(" ");
+        for (int i = 0;i<Words.length;i++)
+        {
+            if(Words[i].equals("coverage"))
+            {
+                Words[i] ="covfefe";
+                check = true;
+            }
+            tweet += i<Words.length-1 ? Words[i]+ " ": Words[i];
+        }
+
+
+        return check ? tweet: tweet+" covfefe";
+    }
+
+    public static int GetAverage(int[] marks)
+    {
+        int a =0;
+        for (var item : marks){a+=item;}
+        return  a/marks.length;
     }
 }
