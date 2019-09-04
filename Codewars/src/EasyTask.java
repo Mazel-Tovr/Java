@@ -5,6 +5,16 @@ import java.util.Collections;
 
 public class EasyTask
 {
+    public static int sumPositive(int[] arr)
+    {
+        int a = 0;
+        for (int i = 0; i < arr.length - 1; i++)
+        {
+            a += arr[i]>0 ? arr[i]: 0;
+        }
+        return a;
+    }
+
     public static int nearestSq(final int n)
     {
         Double number = Math.sqrt(n);

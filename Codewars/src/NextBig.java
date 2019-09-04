@@ -15,7 +15,7 @@ public class NextBig
 
         }
 
-        return nextBiggerNumber(whatisnext(arrayList,n));
+        return whatisnext(arrayList,n);
     }
 
     private static long swap(int index,StringBuilder str)
