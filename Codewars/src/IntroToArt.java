@@ -2,52 +2,43 @@ import java.util.*;
 
 public class IntroToArt {
     public static void main(String[] args) {
-        for (var line : getW(5)) {
+        for (var line : getW(3)) {
             System.out.println(line);
         }
     }
 
     public static String[] getW(int height) {
         if(height < 2)
-            return null;
-
+            return new String[0];
         ArrayList<String> W = new ArrayList<>();
-
-        int spacecount = height;
+        int spacecount = height-1;
         int innerspacecount = 0;
-        while (spacecount > 0) {
-            StringBuilder sbline = new StringBuilder();
-            if (innerspacecount == 0) {
-                sbline.append(" ".repeat(spacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(spacecount));
-
-                sbline.append(" ".repeat(spacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(spacecount));
-
-                spacecount--;
+        while (spacecount >= 0)
+        {
+            String str="";
+            if(innerspacecount == 0)
+            {
+                str = " ".repeat(spacecount) + "*"+ " ".repeat((spacecount*2)-1) + "*" + " ".repeat(spacecount);
+                spacecount --;
                 innerspacecount++;
-            } else {
-                sbline.append(" ".repeat(spacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(innerspacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(spacecount));
-
-                sbline.append(" ".repeat(spacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(innerspacecount));
-                sbline.append("*");
-                sbline.append(" ".repeat(spacecount));
-                spacecount--;
+            }
+            else if(spacecount == 0)
+            {
+                str =  "*"+ " ".repeat(innerspacecount) + "*" + " ".repeat(innerspacecount)+"*";
+                spacecount --;
+            }
+            else
+            {
+                str = " ".repeat(spacecount) + "*"+" ".repeat(innerspacecount)+ "*" +" ".repeat((spacecount*2)-1) + "*"+" ".repeat(innerspacecount)+ "*";
+                spacecount --;
                 innerspacecount+=2;
-
             }
 
-            W.add(sbline.toString());
+            W.add(str);
         }
-        Collections.reverse(W);
+       Collections.reverse(W);
+
+
         return W.toArray(new String[0]);
     }
 //    public static String[] getW(int height) {
