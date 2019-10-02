@@ -29,7 +29,7 @@ public class IntroToArt {
             }
             else
             {
-                str = " ".repeat(spacecount) + "*"+" ".repeat(innerspacecount)+ "*" +" ".repeat((spacecount*2)-1) + "*"+" ".repeat(innerspacecount)+ "*";
+                str = " ".repeat(spacecount) + "*"+" ".repeat(innerspacecount)+ "*" +" ".repeat((spacecount*2)-1) + "*"+" ".repeat(innerspacecount)+ "*"+" ".repeat(spacecount);
                 spacecount --;
                 innerspacecount+=2;
             }
