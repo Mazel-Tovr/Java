@@ -8,20 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce6f618-5033-43ca-be36-286701b5ddce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dinglemouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Likes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Meeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NextBig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Persist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimeFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/EasyTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Codewars/TestProgram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EasyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OOP/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,9 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="522" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="179" />
+    <option name="y" value="61" />
     <option name="width" value="1437" />
     <option name="height" value="892" />
   </component>
@@ -109,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -126,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +128,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FTP-Client" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -186,9 +173,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="179" y="61" width="1437" height="892" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12345679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
