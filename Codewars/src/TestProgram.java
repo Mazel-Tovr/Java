@@ -34,11 +34,7 @@ public class TestProgram
     }*/
 //        List<String> a = new ArrayList<String>();
 //        a.add(":)"); a.add(":D"); a.add(":-}"); a.add(":-()");
-=======
-    }
-        List<String> a = new ArrayList<String>();
-        a.add(":)"); a.add(":D"); a.add(":-}"); a.add(":-()");
->>>>>>> master
+
         /*System.out.println((double) 8/30);
         for (var item:
                 ToSmallest.smallest(Long.decode("23311822363250008"))) {
@@ -64,13 +60,14 @@ public class TestProgram
 
 
          */
-        ArrayList<Integer> a  = new ArrayList();
-        for (int i = 1; i <8 ; i++)
-        {
-         a.add(i);
-        }
-    Josephus.josephusPermutation(a,3);
-        System.out.println();
+//        ArrayList<Integer> a  = new ArrayList();
+//        for (int i = 1; i <8 ; i++)
+//        {
+//         a.add(i);
+//        }
+//    Josephus.josephusPermutation(a,3);
+        StringBuilder s = new StringBuilder( "abcd\nnefgh\nnijkl\nnmnop");
+        System.out.println( s.reverse());
 
 
     }
